@@ -79,7 +79,7 @@ pipeline {
         success {
             script {
                 emailext attachLog: true,
-                from: 'amark5umar@gmail.com',
+                from: 'vipinkumar101898@gmail.com',
                 subject: "Wanderlust Application has been updated and deployed - '${currentBuild.result}'",
                 body: """
                     <html>
@@ -96,7 +96,7 @@ pipeline {
                     </body>
                     </html>
             """,
-            to: 'amark5umar@gmail.com',
+            to: 'vipinkumar101898@gmail.com',
             mimeType: 'text/html'
             }
         }
