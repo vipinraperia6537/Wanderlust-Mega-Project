@@ -19,6 +19,7 @@ spec:
       containers:
         - name: backend
           image: vipinraperia6537/wanderlust-backend-beta:v3
+
           ports:
             - containerPort: 8080
 ---
